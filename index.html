@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 1 Web C#</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="header-title">Pudim</h1>
+    </header>
+    <div class="container-flex">
+      <div class="coluna">
+        <h1>Cadastro de item</h1>
+        <form action="">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required />
+          </div>
+          <div>
+            <label for="data">Data</label>
+            <input type="date" id="data" />
+          </div>
+          <div>
+            <label for="color">color</label>
+            <input type="color" id="color" />
+          </div>
+          <div>
+            <label for="number">number</label>
+            <input type="number" id="number" />
+          </div>
+          <div>
+            <label for="password">password</label>
+            <input type="password" id="password" />
+          </div>
+          <div>
+            <label for="tipo"></label>
+            <select name="tipo" id="tipo">
+              <option value="APA">APA</option>
+              <option value="IPA">IPA</option>
+            </select>
+          </div>
+          <div>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+      <div class="listagem">
+        <h1>Confeitaria</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Descricao</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>
+                <div><img src="./pudim.jpeg" alt="" />Pudim</div>
+              </td>
+              <td>R$ 15,00</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <div><img src="./pudim.jpeg" alt="" />Pudim Gourmet</div>
+              </td>
+              <td>R$ 60,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
